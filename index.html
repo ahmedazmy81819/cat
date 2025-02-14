@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Maze Adventure</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-container">
+        <div class="game-header">
+            <h1>Cat Maze Adventure</h1>
+            <div class="score">Score: <span id="score">0</span></div>
+            <div class="time">Time: <span id="time">0</span>s</div>
+        </div>
+        <canvas id="gameCanvas"></canvas>
+        <div class="mobile-controls">
+            <!-- تغيير ترتيب الأزرار ليشبه البلايستيشن -->
+            <button id="up">⬆</button>
+            <button id="right">⮕</button>
+            <button id="down">⬇</button>
+            <button id="left">⬅</button>
+        </div>
+        <div class="controls">
+            <p>Use Arrow keys or WASD to move</p>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+</html>
